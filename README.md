@@ -5,10 +5,9 @@ Créer un dashboard interactif et esthétique qui consomme les APIs définies da
 
 ## Pré-requis:
 - Avoir installé: apache2
-Fedora:
-```sh
-dnf install apache2
-```
+
+[Fedora](https://doc.fedora-fr.org/wiki/Installation_et_configuration_d%27Apache)
+
 Ubuntu:
 ```sh
 apt-get install apache2
@@ -21,9 +20,13 @@ apt-get install apache2
 ### Introduction:
 - **But** : Étendre le premier workshop en créant une interface utilisateur réactive et visuelle.
 
-Vous travaillerez dans le dossier `/var/html/www/`
+Vous travaillerez dans le dossier `/var/www/html/`
 On vous suggère d'ouvrir VSCode directement dans ce dossier.
 
+En cas de problème de droit:
+```sh
+sudo chmod -R 775 /var/www/html/
+```
 ---
 
 ## Exercices
